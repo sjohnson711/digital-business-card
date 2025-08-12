@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* horizontally center children */
+  align-items: center; /* vertically center children */
+  height: 100vh;
+}
+
+.top-half {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+button {
+  display: inline-flex;
+}
+
+.email {
+  background: #fff;
+  color: black;
+  border-radius: 6px;
+}
+
+.linkedin {
+  background: #5093e2;
+  color: #fff;
+  border-radius: 6px;
+}

@@ -1,9 +1,7 @@
-import { useState } from "react";
-
-import viteLogo from "/vite.svg";
+import Header from "./Header.jsx";
 
 function App() {
-  return;
+  return <Header />;
 }
 
 export default App;
