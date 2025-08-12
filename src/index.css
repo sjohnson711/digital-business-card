@@ -29,3 +29,14 @@ button {
   color: #fff;
   border-radius: 6px;
 }
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 100px;
+  justify-self: center;
+  margin-left: 30px;
+}

@@ -1,14 +1,22 @@
+import seth from "./seth.jpg";
+
 export default function Header() {
   return (
-    <div class="top-half">
-      <img src="assets/Seth.JPG" alt="profile picture" />
+    <div className="top-half">
+      <img src={seth} alt="profile picture" class="profile-pic" />
       <br />
-      <button class="email">
-        <i class="fa-solid fa-envelope"></i>Email
-      </button>
-      <button class="linkedin">
-        <i class="fa-brands fa-square-linkedin"></i>linkedIn
-      </button>
+      <h1>Seth Johnson</h1>
+      <h2>FullStack Developer</h2>
+      <h3>samaritanbrotherseth@gmail.com</h3>
+      <div className="buttons">
+        <button className="email">
+          <i className="fa-solid fa-envelope" id="email-envelope"></i>Email
+        </button>
+        <button className="linkedin">
+          <i className="fa-brands fa-square-linkedin" id="linkedin-in"></i>
+          linkedIn
+        </button>
+      </div>
     </div>
   );
 }
