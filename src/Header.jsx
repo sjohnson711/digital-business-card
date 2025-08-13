@@ -14,7 +14,9 @@ export default function Header() {
           <div className="buttons">
             <button className="email">
               <i className="fa-solid fa-envelope" id="email-envelope"></i>
-              <a href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                Email
+              </a>
             </button>
             <button className="linkedin">
               <i className="fa-brands fa-square-linkedin" id="linkedin-in"></i>

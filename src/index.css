@@ -6,6 +6,7 @@ body {
   align-items: center; /* vertically center children */
   height: 100vh;
   color: #dcdcdc;
+  background: #2a9b8a59;
 }
 
 .top-half {
@@ -46,6 +47,9 @@ h3 {
   border-radius: 6px;
   text-decoration: none;
 }
+.email:hover {
+  opacity: 0.9;
+}
 
 .linkedin {
   background: #5093e2;
@@ -80,4 +84,15 @@ h3 {
 .top-half {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.container .buttons .email a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .buttons .linkedin a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
