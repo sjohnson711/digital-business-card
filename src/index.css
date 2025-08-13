@@ -16,7 +16,8 @@ body {
   background: #1a1b21;
   height: 400px;
   width: 300px;
-  margin-bottom: 30px;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -43,12 +44,14 @@ h3 {
   background: #fff;
   color: black;
   border-radius: 6px;
+  text-decoration: none;
 }
 
 .linkedin {
   background: #5093e2;
   color: #fff;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .buttons {
@@ -60,7 +63,21 @@ h3 {
   display: inline-block;
   width: 100px;
   justify-self: center;
-  margin-left: 0px;
+  margin: 0;
+  padding: 0;
   width: 300px;
   height: 300px;
+}
+
+.container,
+.profile-pic {
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.containier,
+.top-half {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
