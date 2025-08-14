@@ -46,6 +46,7 @@ h3 {
   color: black;
   border-radius: 6px;
   text-decoration: none;
+  border: none;
 }
 .email:hover {
   opacity: 0.9;
@@ -56,6 +57,7 @@ h3 {
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
+  border: none;
 }
 
 .buttons {
@@ -95,4 +97,8 @@ h3 {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+
+.about {
+  color: white;
 }
