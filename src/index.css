@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 40px;
   padding: 0;
   display: flex;
   justify-content: center; /* horizontally center children */
@@ -16,8 +16,6 @@ body {
   flex-direction: column;
   background: #1a1b21;
   width: 300px;
-  margin: 0;
-  padding: 0;
   text-align: center;
   overflow-y: auto;
 }
@@ -101,6 +99,11 @@ h3 {
 
 .Info {
   text-align: start;
-  padding: 10px;
+  padding: 40px;
   margin-bottom: 5px;
+}
+
+.about {
+  font-size: 16px;
+  color: white;
 }
