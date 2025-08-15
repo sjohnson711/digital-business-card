@@ -3,10 +3,9 @@ import About from "./Body.jsx";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <About />
-    </>
+    </div>
   );
 }
 

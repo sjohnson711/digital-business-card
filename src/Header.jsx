@@ -1,4 +1,5 @@
 import seth from "./seth.jpg";
+import About from "./Body.jsx";
 
 export default function Header() {
   return (
@@ -25,6 +26,7 @@ export default function Header() {
               </a>
             </button>
           </div>
+          <About />
         </div>
       </div>
     </>

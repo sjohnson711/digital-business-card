@@ -15,11 +15,11 @@ body {
   align-self: center;
   flex-direction: column;
   background: #1a1b21;
-  height: 400px;
   width: 300px;
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow-y: auto;
 }
 
 h1 {
@@ -99,6 +99,8 @@ h3 {
   cursor: pointer;
 }
 
-.about {
-  color: white;
+.Info {
+  text-align: start;
+  padding: 10px;
+  margin-bottom: 5px;
 }
