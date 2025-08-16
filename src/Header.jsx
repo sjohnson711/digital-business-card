@@ -15,13 +15,14 @@ export default function Header() {
           <div className="buttons">
             <button className="email">
               <i className="fa-solid fa-envelope" id="email-envelope"></i>
-              <a href="#" target="_blank">
-                Email
-              </a>
+              <a href="#">Email</a>
             </button>
             <button className="linkedin">
               <i className="fa-brands fa-square-linkedin" id="linkedin-in"></i>
-              <a href="https://www.linkedin.com/in/seth-johnson-10a6a217b/">
+              <a
+                href="https://www.linkedin.com/in/seth-johnson-10a6a217b/"
+                target="_blank"
+              >
                 linkedIn
               </a>
             </button>
