@@ -6,7 +6,7 @@ export default function Footer() {
       </a>
       <i class="fa-brands fa-facebook" id="social"></i>
       <i class="fa-brands fa-twitter" id="social"></i>
-      <i class="fa-brands fa-github" id="social"></i>
+     <a href="https://github.com/sjohnson711?tab=repositories" target="_blank"><i class="fa-brands fa-github" id="social"></i></a> 
     </footer>
   );
 }
